@@ -201,7 +201,7 @@
     <div class="subtitle">🎙️ 先点击顶部开启授权，即可全程免重复弹窗说出答案</div>
 
     <div id="timerBar" class="timer-bar">
-        <div>⏱️ 考试时间：<span id="timer">25:00</span></div>
+        <div>⏱️ 考试时间：<span id="timer">10:00</span></div>
         <div class="control-group">
             <button type="button" id="globalMicBtn" class="global-mic-btn" onclick="initGlobalSpeech()">🎙️ 1. 允许麦克风权限</button>
             <button type="button" id="startBtn" class="start-btn" onclick="startTimer()">2. 开始考试</button>
@@ -380,7 +380,7 @@ function resetMicBtn(qid) {
 }
 
 let timerInterval = null;
-let timeLeft = 25 * 60;
+let timeLeft = 10 * 60;
 let isStarted = false;
 
 function startTimer() {
